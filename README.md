@@ -1,1 +1,1 @@
-<h2>candleaf is a test website</h2>
+<h2>candleaf is a test template website</h2>
