@@ -631,18 +631,23 @@ footer .container .firscolumn{
   flex-direction: column;
   flex-wrap: wrap;
 }
-footer .container .column svg{
-  margin-left: 12px;
-}
+
 footer .container .linksfooter{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+footer .container .linksfooter .column{
+  display: flex;
+  flex-direction: row;
+}
 footer .container .linksfooter .column ul{
   list-style: none;
   padding: 0;
   margin: 30px;
+}
+footer .container .firscolumn{
+  font-family: popoins;
 }
 footer .container .linksfooter .column ul li{
   margin-top: 20px;
@@ -955,12 +960,13 @@ footer .container .linksfooter .column ul li a{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
   }
   footer .container .column img{
     width: 40px;
     height: 40px;
+    margin: 5px;
    
   }
   footer .container .column svg{
