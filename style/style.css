@@ -7,6 +7,114 @@
     font-family: 'Work Sans', sans-serif;
   
   }
+  .poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
   
   body {
     margin: 0;
@@ -191,6 +299,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: 57.6px;
+    font-family: Roboto;
     /* 144% */
   }
   
@@ -205,6 +314,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 25.6px;
+    font-family: Helvetica!important; 
     /* 142.222% */
   }
   
@@ -223,6 +333,7 @@
     font-weight: 500;
     line-height: normal;
     border-color: transparent;
+    font-family: Roboto;
   }
   
   /* end first section */
@@ -253,6 +364,7 @@
     /* 144% */
     letter-spacing: -0.9px;
     margin-bottom: 0;
+    font-family: poppins;
   }
   
   .sec .container p {
@@ -269,6 +381,7 @@
     height: 35px;
     flex-shrink: 0;
     margin-top: 15px;
+    font-family: poppins;
   }
   
   .sec .container .prodacts {
@@ -327,6 +440,7 @@
     flex-direction: column;
     justify-content: flex-end;
     flex-shrink: 0;
+    font-family: poppins;
   }
   
   .third .container .text-and-ph .image img {
@@ -348,6 +462,10 @@
     width: 350px;
     height: 25px;
     flex-shrink: 0;
+    font-family: poppins;
+  }
+  .third .container .text-and-ph .checked{
+    font-family: poppins;
   }
   
   .third .container .text-and-ph .see-butto {
@@ -370,6 +488,7 @@
     gap: 10px;
     margin-bottom: 70px;
     margin-top: 50px;
+    font-family: Roboto;
   }
   
   /* end third section */
@@ -396,6 +515,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: 57.6px;
+    font-family: poppins;
     /* 144% */
     letter-spacing: -0.9px;
   }
@@ -411,6 +531,7 @@
     line-height: 27.6px;
     /* 153.333% */
     letter-spacing: 0.1px;
+    font-family: poppins;
   }
   
   /* end forth section */
@@ -443,6 +564,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 57.6px; /* 144% */
 letter-spacing: -0.9px;
+font-family: poppins;
 }
 .five .container p{
     color: var(--dark-1);
@@ -456,6 +578,7 @@ letter-spacing: -0.9px;
     width: 1109px;
     height: 35px;
     flex-shrink: 0;
+    font-family: poppins;
 }
 .five .container .prodacts{
     display: flex;
@@ -527,6 +650,7 @@ footer .container .linksfooter .column ul li{
 footer .container .linksfooter .column ul li a{
   color: #E1E1E1;
   text-decoration: none;
+  font-family: avenir;
 }
   /* end footer section */
   
