@@ -598,7 +598,7 @@ flex-shrink: 0;
   /* end five section */
 
   /* strart footer section */
-footer{
+/* footer{
   background-color: #272727;
 }
 footer .separator{
@@ -656,7 +656,76 @@ footer .container .linksfooter .column ul li a{
   color: #E1E1E1;
   text-decoration: none;
   font-family: avenir;
+} */
+
+footer .container{
+  max-width: 1170px;
+  margin:auto;
 }
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #272727;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #56B280;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+  font-family: avenir;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: #ffffff93;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col .h4-1::before{
+  width: 80px;
+}
+.footer-col .h4-3::before{
+  width: 35px;
+}
+.footer-col ul{
+  padding: 0;
+}
+.footer-col ul li{
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+
+  text-decoration: none;
+  font-weight: 300;
+  color: #E1E1E1;
+  display: block;
+  transition: all 0.3s ease;
+  font-family: avenir;
+}
+.footer-col ul li a:hover{
+  padding-left: 8px;
+  color: #56B280;
+
+}
+
+
   /* end footer section */
   
   @media (max-width: 1240px) {
@@ -949,7 +1018,7 @@ footer .container .linksfooter .column ul li a{
     /* end five section */
 
   /* start footer section */
-  footer .container{
+  /* footer .container{
     flex-direction: column;
     width: 100%;
   }
@@ -973,8 +1042,17 @@ footer .container .linksfooter .column ul li a{
     width: 97px;
     height: 17px;
    
-  }
+  } */
+
   /* end footer section */
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+footer .container .row{
+  flex-direction: column;
+}
+
 
   }
   @media (max-width: 359px) {
@@ -1025,5 +1103,8 @@ footer .container .linksfooter .column ul li a{
     .third .container .text-and-ph .image-mop img{
       width: 100%;
     }
+    .footer-col{
+      width: 100%;
+  }
 
   }
