@@ -1007,10 +1007,23 @@ color: #56B280;
 /* start footer section */
 footer .container {
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 footer .container .row{
   width: 100%;
+}
+.footer-col h4 {
+  font-size: 16px;
+}
+.footer-col ul li a {
+  font-size: 12px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 300;
+  color: #E1E1E1;
+  display: block;
+  transition: all 0.3s ease;
+  font-family: avenir;
 }
 footer .container .icon-name-p-section{
   align-items: flex-start;
@@ -1027,7 +1040,10 @@ footer .container .icon-name-p-section .icon-name svg{
   width: 100px;
   height: 17px;
 }
-
+footer .container .row .footer-col ul{
+  display: flex;
+  flex-direction: column;
+}
 
 /* end footer section */
 
