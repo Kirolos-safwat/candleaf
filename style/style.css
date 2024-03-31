@@ -1027,7 +1027,7 @@ footer .container .row{
   font-family: avenir;
 }
 footer .container .icon-name-p-section{
-  align-items: flex-start;
+  align-items: center;
 }
 footer .container .icon-name-p-section p{
   font-size: 14px;
