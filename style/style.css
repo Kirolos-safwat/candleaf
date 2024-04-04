@@ -367,8 +367,36 @@ header .container .icons {
   font-family: poppins;
 }
 
+
+.sec .container .prodacts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* Creates 4 columns */
+  grid-template-rows: auto auto;
+  /* Creates 2 rows */
+  gap: 10px;
+  /* Adjust the gap between grid items */
+  margin: 10px;
+}
+.sec .container .prodacts .main-prodact{
+  background: #F7F8FA;
+  height: 100%;
+  width: 255px;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 2px 2px 10px 0px #00000017;
+}
+.sec .container .prodacts .main-prodact .price-prodname{
+  background: #ebebeb;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 .sec .container p {
-  color: var(--dark-1, #5E6E89);
+  color: #1D293F;
+  letter-spacing: -0.9px;
   text-align: center;
   font-feature-settings: 'clig' off, 'liga' off;
   font-size: 18px;
@@ -384,14 +412,21 @@ header .container .icons {
   font-family: poppins;
 }
 
-.sec .container .prodacts {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  /* Creates 4 columns */
-  grid-template-rows: auto auto;
-  /* Creates 2 rows */
-  gap: 10px;
-  /* Adjust the gap between grid items */
+.sec .container .price{
+  color: #56B280;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 18px;
+  font-style: normal;
+  font-weight:500;
+  line-height: 27.6px;
+  /* 153.333% */
+  letter-spacing: 0.1px;
+  width: 100%;
+  height: 35px;
+  flex-shrink: 0;
+  margin-top: 15px;
+  font-family: Roboto;
 }
 
 .sec .container .see-butt {
@@ -534,68 +569,18 @@ header .container .icons {
   letter-spacing: 0.1px;
   font-family: poppins;
 }
+.forth .images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+  overflow: hidden;
+}
 
 /* end forth section */
 
-/* start five section */
-.five{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.five .container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin: 90px 165px 70px;
-  width: 1110px;
-height: 380px;
-flex-shrink: 0;
-}
-.five .container h2{
-  width: 1109px;
-height: 50px;
-flex-shrink: 0;
-color: #0B254B;
-text-align: center;
-font-feature-settings: 'clig' off, 'liga' off;
-font-size: 40px;
-font-style: normal;
-font-weight: 500;
-line-height: 57.6px; /* 144% */
-letter-spacing: -0.9px;
-font-family: poppins;
-}
-.five .container p{
-  color: var(--dark-1);
-  text-align: center;
-  font-feature-settings: 'clig' off, 'liga' off;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 27.6px; /* 153.333% */
-  letter-spacing: 0.1px;
-  width: 1109px;
-  height: 35px;
-  flex-shrink: 0;
-  font-family: poppins;
-}
-.five .container .prodacts{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
 
-.five .container .prodacts img{
-  display: flex;
-width: 255px;
-height: 230px;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
-}
 /* start footer section */
  .footer{
 background-color: #272727;
@@ -717,37 +702,6 @@ color: #56B280;
     gap: 10px;
     /* Adjust the gap between grid items */
   }
-
-      /* start five section */
-      .five{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        flex-wrap: wrap;
-    }
-    .five .container{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      height: 100%;
-      margin: 90px 0 70px;
-    }
-    .five .container h2{
-      width: 100%;
-      height: 100%;
-    }
-    .five .container p{
-      width: 100%;
-      height: 100%;
-    }
-    .five .container .prodacts{
-      flex-wrap: wrap;
-    }
-      /* end five section */
-
   .third .container {
     flex-direction: column;
   }
@@ -955,7 +909,7 @@ color: #56B280;
     padding-bottom: 100px;
   }
 
-  .forth .container .images {
+  .forth .images {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -964,8 +918,8 @@ color: #56B280;
     overflow: hidden;
   }
 
-  .forth .container .images img {
-    width: 70%;
+  .forth .images img {
+    width: 60%;
     height: 244.988px;
     padding-bottom: 20.542px;
     flex-shrink: 0;
@@ -974,36 +928,6 @@ color: #56B280;
 
   /* end forth section */
 
-  /* start five section */
-  .five{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-wrap: wrap;
-}
-.five .container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  margin: 90px 0 70px;
-}
-.five .container h2{
-  width: 100%;
-  height: 100%;
-}
-.five .container p{
-  width: 100%;
-  height: 100%;
-}
-.five .container .prodacts{
-  flex-direction: column;
-}
-  /* end five section */
-
 /* start footer section */
 footer .container {
   flex-direction: column;
@@ -1011,7 +935,7 @@ footer .container {
 }
 footer .container .row{
   width: 100%;
-  margin-left: 20%;
+  margin-left: 16%;
 }
 .footer-col h4 {
   font-size: 16px;
@@ -1076,9 +1000,9 @@ footer .container .row .footer-col ul{
     flex-direction: column;
     width: 100%;
   }
-  .sec .container .prodacts img{
-    width: 90%;
-  }
+  .sec .container .prodacts img {
+    width: 100%;
+}
   .third .container .text-and-ph{
     width: 90%;
   }
