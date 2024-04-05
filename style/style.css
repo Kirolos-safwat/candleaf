@@ -377,6 +377,7 @@ header .container .icons {
   gap: 10px;
   /* Adjust the gap between grid items */
   margin: 10px;
+  margin-top: 60px;
 }
 .sec .container .prodacts .main-prodact{
   display: flex;
@@ -858,6 +859,7 @@ color: #56B280;
   }
 
   .sec .container .prodacts {
+    margin-top: 75px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     /* Creates 4 columns */
