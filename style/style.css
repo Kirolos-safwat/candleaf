@@ -379,15 +379,22 @@ header .container .icons {
   margin: 10px;
 }
 .sec .container .prodacts .main-prodact{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   background: #F7F8FA;
-  height: 100%;
-  width: 255px;
+  height: fit-content;
+  width:fit-content;
   border-radius: 5px;
   text-decoration: none;
   box-shadow: 2px 2px 10px 0px #00000017;
 }
+.sec .container .prodacts .main-prodact img{
+  margin-bottom: -35px;
+  margin-top: -10px;
+}
 .sec .container .prodacts .main-prodact .price-prodname{
-  background: #ebebeb;
+  background: #FFFFFF;
   width: 100%;
   display: flex;
   align-items: center;
@@ -408,7 +415,7 @@ header .container .icons {
   width: 100%;
   height: 35px;
   flex-shrink: 0;
-  margin-top: 15px;
+  margin: 0;
   font-family: poppins;
 }
 
@@ -425,7 +432,7 @@ header .container .icons {
   width: 100%;
   height: 35px;
   flex-shrink: 0;
-  margin-top: 15px;
+  margin-top: 0;
   font-family: Roboto;
 }
 
@@ -531,6 +538,7 @@ header .container .icons {
 /* start forth section */
 .forth {
   background: rgba(86, 178, 128, 0.10);
+  padding-bottom: 62px;
 }
 
 .forth .container {
