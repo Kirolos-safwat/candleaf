@@ -143,7 +143,7 @@ body {
     /* Creates 4 columns */
     grid-template-rows: auto auto;
     /* Creates 2 rows */
-    gap: 10px;
+    gap: 30px;
     /* Adjust the gap between grid items */
   }
 }
@@ -375,7 +375,7 @@ header .container .icons {
   /* Creates 4 columns */
   grid-template-rows: auto auto;
   /* Creates 2 rows */
-  gap: 10px;
+  gap: 30px;
   /* Adjust the gap between grid items */
   margin: 10px;
   margin-top: 60px;
@@ -616,7 +616,7 @@ footer .separator{
   width: 90%;
 }
 footer .separator img{
-  width: 100%;
+  width: 98%;
 }
 footer .container .icon-name-p-section{
   display: flex;
@@ -709,7 +709,7 @@ color: #56B280;
     /* Creates 4 columns */
     grid-template-rows: auto auto;
     /* Creates 2 rows */
-    gap: 10px;
+    gap: 30px;
     /* Adjust the gap between grid items */
   }
   .third .container {
@@ -867,7 +867,7 @@ color: #56B280;
     /* Creates 4 columns */
     grid-template-rows: auto auto;
     /* Creates 2 rows */
-    gap: 10px;
+    gap: 30px;
     /* Adjust the gap between grid items */
   }
 
