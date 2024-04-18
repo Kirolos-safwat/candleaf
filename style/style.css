@@ -927,7 +927,7 @@ color: #56B280;
     justify-content: center;
     flex-direction: row;
     display: flex;
-    overflow: hidden;
+    overflow: scroll;
   }
 
   .forth .images img {
