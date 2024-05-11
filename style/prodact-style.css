@@ -151,7 +151,7 @@ padding-top: 5px;
     display: inline-block;
     margin-top: 22px;
 }
-.one .container .sec_section .title{
+.title{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -185,7 +185,7 @@ padding-top: 5px;
   flex-direction: column;
   margin-right: 115px;
 }
-.one .container .sec_section .price-check .brodact-price{
+.brodact-price{
   display: flex;
   align-items:center;
   justify-content: center;
@@ -228,7 +228,7 @@ padding-top: 5px;
   letter-spacing: -0.9px;
 }
 
-.one .container .sec_section .price-check div:first-child .num input{
+.number{
   display: flex;
   align-items:center;
   justify-content: center;
@@ -246,6 +246,7 @@ padding-top: 5px;
   font-weight: 500;
   line-height: 25.6px; /* 116.364% */
   letter-spacing: -0.9px;
+  border-color: #56B280;
 }
 .one .container .sec_section .price-check .status .status-2{
   border: 0.1rem solid #E6E6E6;

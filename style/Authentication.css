@@ -1,0 +1,459 @@
+body{
+    background: linear-gradient(to right, #FFFFFF 50%, #F2F2F2 50%);
+}
+
+body .section-one .container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* body .section-one .container div{
+    width: 100%;
+    height: fit-content;
+    
+} */
+
+span a{ 
+    margin: 0;
+    flex-shrink: 0;
+    color: #616161;
+    text-align: start;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px;
+    letter-spacing: -0.9px;
+    
+}
+span a{ 
+   text-decoration: none;
+    
+}
+.main-section {
+    margin-right: 125px;
+}
+body .section-one .container .main-section .steps{
+    margin-bottom: 44px;
+    margin-top: 0;
+}
+body .section-one .container .main-section p span .fir-child{
+    color:#56B280;
+}
+body .section-one .container .main-section p .sec-child{
+    color:#272727;
+}
+body .section-one .container .main-section p img{
+    margin: 0 10px;
+}
+.mobile-cart-detal{
+    display: none;
+}
+.first-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 125px 0 0;
+}
+
+.first-line h2{
+    font-size: 20px;
+    font-family: Roboto;
+    line-height: 25.6px;
+    letter-spacing: -0.9px;
+    font-weight: 500;
+    color: #272727;
+    text-align: start;
+    margin: 0;
+}
+.first-line p{
+    font-size: 16px;
+    font-family: Roboto;
+    line-height: 25.6px;
+    letter-spacing: -0.9px;
+    font-weight: 500;
+    color: #616161;
+    text-align: end;
+    margin: 0;
+}
+.first-line p span{
+    color: #56B280;
+    padding-left: 2px;
+    
+
+}
+
+.e-mail-inp{
+    width: 100%;
+    height: 40px;
+    margin-top: 22px;
+    border-color: #56B280;
+
+}
+.main-section .sec-line{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.main-section .sec-line p{
+    font-size: 14px;
+    font-family: Roboto;
+    line-height: 25.6px;
+    letter-spacing: -0.9px;
+    font-weight: 500;
+    color: #272727;
+    text-align: center;
+    margin: 0;
+    margin-left: 7px;
+}
+input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+    border: 2px solid #B7B7B7;
+    appearance: none;
+}
+.main-section .third-line{
+    padding: 0 125px 0 0;
+    margin-top: 40px;
+}
+.main-section .third-line h2{
+    font-size: 20px;
+    font-family: Roboto;
+    line-height: 25.6px;
+    letter-spacing: -0.9px;
+    font-weight: 500;
+    color: #272727;
+    text-align: start;
+    margin: 0;
+}
+.main-section .third-line div input{
+    height: 40px;
+    padding: 0 17px;
+    color: #616161;
+    margin-top: 12px;
+    border-color: #616161;
+}
+.main-section .third-line .first-inp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    width: 48%;
+    padding: 0 17px;
+    color: #616161;
+}
+.main-section .third-line .sec-inp input{
+    width: 100%;
+
+}
+.main-section .third-line .third-inp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-section .third-line .third-inp input{
+    width: 32.3%;
+
+}
+#Province{
+    height: 40px;
+    color: #616161;
+    margin-top: 12px;
+    border-color: #616161;
+    width: 32.3%;
+}
+#Country{
+    height: 40px;
+    color: #616161;
+    margin-top: 12px;
+    border-color: #616161;
+    width: 100%;
+}
+.main-section .third-line .forth-inp{
+    width: 100%;
+}
+.main-section .third-line .forth-inp input{
+    width: 100%;
+
+}
+
+.fourth-line{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 125px 0 0;
+}
+.fourth-line a{
+    font-size: 18px;
+    font-family: Roboto;
+    line-height: 25.6px;
+    letter-spacing: -0.9px;
+    font-weight: 500;
+    color:#56B280 ;
+    text-align: start;
+    margin: 0;
+}
+.fourth-line button{
+    font-size: 20.65px;
+    text-align: center;
+    line-height: auto;
+    color: #FFFFFF;
+    background-color: #56B280;
+    border: 0;
+    border-radius: 4px;
+    padding: 8px 44px;
+    border: 1px solid #ffffff
+}
+.fourth-line button:hover{
+    color: #56B280;
+    background-color:#FFFFFF;
+    border: 1px solid #56B280;
+}
+.side-section{
+    padding: 55px 48px 0 65px;
+
+}
+.side-section .first-part{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.side-section .back-img{
+    width: 164px !important;
+    height: 130px !important;
+    background: #F7F8FA;
+    margin-right: 60px;
+}
+.side-section div .title{
+    font-size: 16px;
+}
+.side-section div .brodact-price{
+    font-size: 21px;
+}
+.side-section div img:last-child{
+    position: absolute;
+}
+.sec-part{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.sec-part input{
+    width: 285px;
+    height: 45px;
+    margin-right: 10%;
+
+}
+.sec-part button{
+    width: auto;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: #A8A8A8;
+    border: none;
+    border-radius: 4PX;
+    
+}.linee{
+    width: 100%;
+}
+.Linee-two{
+    width: 100%;
+}
+.third-part, .forth-part {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.third-part div, .forth-part div  {
+    display: flex;
+    justify-content: space-between;
+}
+.third-part div p{
+    margin-top: 12px;
+    font-size: 14px;
+    font-family: Roboto;
+    line-height: 25.6px;
+    letter-spacing: -0.9px;
+    font-weight: 500;
+    color: #616161;
+    text-align: start;
+    margin: 0;
+}
+.forth-part div p{
+    margin-top: 12px;
+    font-size: 14px;
+    font-family: Roboto;
+    line-height: 25.6px;
+    letter-spacing: -0.9px;
+    font-weight: 500;
+    color: #616161;
+    text-align: start;
+    margin: 0;
+}
+.third-price{
+    color: #272727 !important;
+}
+.forth-price{
+    color: #272727 !important;
+    font-size: 24px !important;
+    text-align: end !important;
+}
+@media (max-width: 775px) {
+    header .container {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    body{
+        background: #FFFFFF;
+    }
+    body .section-one .container{
+        display: block;
+    }
+    body .section-one .container div{
+        width: 100%;
+    }
+    .mobile-cart-detal{
+        display: block;
+    height: 87px !important;
+    background: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    }
+    .side-section{
+        display: none;
+    }
+    .detl-price{
+        font-size: 20px;
+        color: #272727;
+    }
+    .mobile-cart-detal a:visited + .side-section{
+        display: block;
+    }
+    body .section-one .container .main-section .steps{
+        margin-top: 33px;
+    }
+    .side-section.active {
+        display: block;
+    }
+    .first-line{
+        padding: 0;
+    }
+    .first-line{
+        padding: 0 !important;
+    }
+
+    .main-section .sec-line {
+        width: 100%;
+    }
+    .main-section .third-line {
+        padding: 0;
+        margin-top: 40px;
+    }
+    .first-inp{
+        flex-direction: column;
+    }
+    .first-inp input{
+        width: 100% !important;
+    }
+    .fourth-line{
+        padding: 0 ;
+    }
+    .third-inp{
+        flex-direction: column;
+    }
+    .third-inp input{
+        width: 100% !important;
+    }
+    #Province {
+        width: 100%;}
+    .fourth-line {
+        margin-top: 40px;
+        margin-bottom: 100px;
+}
+.main-section {
+    margin-right: 0;
+}
+.e-mail-inp{
+    width: 100%;}
+}
+
+
+@media (max-width: 1240px) {
+    .first-line{
+        padding: 0 14px 0 0;
+    }.fourth-line{
+        flex-direction: column;
+    }
+    .main-section .sec-line {
+        width: 100%;
+    }
+    .main-section .third-line {
+        padding: 0;
+        margin-top: 40px;
+    }
+    .first-inp{
+        flex-direction: column;
+    }
+    .first-inp input{
+        width: 100% !important;
+    }
+    .fourth-line{
+        padding: 0 ;
+    }
+    .third-inp{
+        flex-direction: column;
+    }
+    .third-inp input{
+        width: 100% !important;
+    }
+    #Province {
+        width: 100%;}
+    .fourth-line {
+        margin-top: 40px;
+        margin-bottom: 100px;
+}
+.side-section{
+    width: 50% !important;
+}
+.sec-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sec-part button {
+margin-top: 10px;
+}
+.side-section .Linee{
+    width: 100% !important;
+}
+.main-section {
+    margin-right: 50px;
+}
+.e-mail-inp{
+    width: 100%;}
+    
+}
+@media ( max-width:1600px) {
+    .main-section {
+        margin-right: 30px;
+    }
+    .first-line, .sec-line, .third-line, .fourth-line{
+        padding: 0 !important;
+    }
+}
